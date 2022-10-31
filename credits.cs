@@ -13,6 +13,6 @@ public class credits : MonoBehaviour
 
     public void backtomenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 8);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 12);
     }
 }

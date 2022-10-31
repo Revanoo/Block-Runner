@@ -20,16 +20,27 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
     }
 
+    public void Nextlevel4()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
+    }
+
+    public void Nextlevel5()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 9);
+    }
+
+
 
     public void Nextlevel3()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 8);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 12);
     }
 
 
     public void tryagain2()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 10);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 14);
     }
 
     public void tryagain()
